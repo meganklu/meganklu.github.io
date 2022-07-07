@@ -1,0 +1,101 @@
+body {
+  background-color: white;
+}
+
+/* STYLE SECTIONING TAGS */
+.portfoliop {
+  background-color: white; 
+  color: black;
+  font-family: "Josefin Sans", "Segoe UI", "Helvetica", "Hiragino Mincho Pro", sans-serif;
+  font-weight: 300;
+  line-height: 1;
+  font-size: 24px;
+}
+
+.aboutp {
+  background-color: white; 
+  color: black;
+  font-family: "Josefin Sans", "Segoe UI", "Helvetica", "Hiragino Mincho Pro", sans-serif;
+  font-weight: 300;
+  line-height: 1;
+  font-size: 24px;
+}
+
+.homep {
+  color: black;
+  font-family: "Josefin Sans", "Segoe UI", "Helvetica", "Hiragino Mincho Pro", sans-serif;
+  font-weight: 300;
+  line-height: 1;
+  font-size: 24px;
+  text-align: center;
+}
+
+/* STYLE TEXT */
+
+header {
+  color: #4B96D2;
+  text-align: center;
+  font-size: 36px;
+  font-family: "Yeseva One", "Times", serif;
+}
+
+/* STYLE IMAGES */
+
+.profilepic {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #4B96D2;
+  border-radius: 50%;
+  width: 100%;
+}
+
+.portfoliopic {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #4B96D2;
+  max-width: 50%
+}
+
+iframe {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #4B96D2;
+}
+
+/* STYLE TEXT BESIDE IMAGE */
+/* https://stackoverflow.com/questions/48669978/css-display-text-beside-image-responsive */
+.container {
+  width: 100vw;
+}
+
+.div1 {
+  width: 40%;
+  float: left;
+}
+
+.div2 {
+  width: 60%;
+  float: left;
+}
+
+/* STYLE NAV BAR */
+
+/* STYLE FOOTER */
+footer {
+  text-align: center;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 25;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: white;
+  background-color: #4B96D2;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
