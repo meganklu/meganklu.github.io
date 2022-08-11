@@ -2,7 +2,7 @@
 <html>
   <head>
     
-    <title>Megan Lu</title>
+    <title>About</title>
     <meta charset="utf-8" />
 	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	  <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -18,7 +18,7 @@
 
     <!-- Import fonts -->
     <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Yeseva+One|Josefin+Sans:bold,light,thin,bold">
+          href="https://fonts.googleapis.com/css?family=Yeseva+One|Josefin+Sans:bold,light,thin,medium,bi,600">
   </head>
   
   <body>
@@ -27,9 +27,7 @@
         <li>
           <a href="index.html">Home</a>
         </li>
-        <li>
-          <a href="about.html">About</a>
-        </li>
+        <li class="pageopened">About</li>
         <li>
           <a href="portfolio.html">Portfolio</a>
         </li>
@@ -42,19 +40,22 @@
     </header>
 
     <main>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non enim praesent elementum facilisis leo.
-      </p>
-      
-      <h3>My Journey (so far!)</h3>
-      <ul>
+      <div class="clearfix">
+        <img src="assets/megan-lava-rocks.png" alt="A picture of Megan standing on lava rocks. She is wearing a brown tank top, black skirt, and white baseball cap. Her head is turned away from the camera." class="aboutpic">
+        <p class="aboutp">
+          Hi, I'm Megan! I'm a high school student from the Chicagoland area. Ever since I was little, I have been fascinated science and technology. However, it took me a little longer to discover what I wanted to do within the STEM-field. Read more about my journey below.
+        </p>
+      </div>
+
+      <h3>My Journey</h3>
+      <ul class="abouttimeline">
         <li>
           <p><strong>2015</strong> The meet cute</p>
           <p>I was first introduced to programming in third grade during our hour of code. It was love at first sight.</p>
         </li>
         <li>
           <p><strong>2021</strong> Kode with Klossy and Northwestern e-Focus Seminar</p>
-          <p>After taking a break from coding, I applied and was accepted to Kode With Klossy, which runs free, two-week summer coding programs for female and non-binary students. I participated in a virtual mobile application development course where I learned Swift and Xcode. During this summer, I also completed a two-week seminar on design thinking and communication through Northwestern.</p>
+          <p>After taking a break from coding, I applied and was accepted to Kode With Klossy, which runs free two-week summer coding programs for female and non-binary students. I participated in a virtual mobile application development course where I learned Swift and Xcode. During this summer, I also completed a two-week seminar on design thinking and communication through Northwestern.</p>
         </li>
         <li>
           <p><strong>2021</strong> Chemistry with chemistry</p>
@@ -68,16 +69,19 @@
           <p><strong>2022</strong> Girls Who Code and Kode With Klossy</p>
           <p>The summer before my junior year, I participated in the Girls Who Code self-paced summer immersion program where I learned HTML, CSS, and JavaScript, along with cybersecurity and cryptography. I also completed another virtual Kode With Klossy course, this time on data science.</p>
         </li>
-        <!-- <li>
+        <li>
           <p><strong>2022</strong> University of Pennsylvania Chemistry Research Academy</p>
-          <p>For three weeks in Philadelphia, I learned about research through blah blah blah.</p>
-        </li> -->
+          <p>For three weeks in Philadelphia, I learned about research through labs, lectures, and discussions.</p>
+        </li>
       </ul>
+      </div>
     </main>
 
     <footer>
       <a href="https://www.instagram.com/meganklu/" class="fa fa-instagram" target="_blank"></a>
       <a href="https://www.linkedin.com/in/meganklu/" class="fa fa-linkedin" target="_blank"></a>
       <a href="https://twitter.com/meganklu" class="fa fa-twitter" target="_blank"></a>
+      <br>
+      <p class="footertext">Created by Megan Lu</p>
     </footer>
 </html>

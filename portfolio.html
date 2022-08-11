@@ -2,7 +2,7 @@
 <html>
   <head>
     
-    <title>Megan Lu</title>
+    <title>Portfolio</title>
     <meta charset="utf-8" />
 	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	  <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -18,7 +18,7 @@
 
     <!-- Import fonts -->
     <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Yeseva+One|Josefin+Sans:bold,light,thin,bold">
+          href="https://fonts.googleapis.com/css?family=Yeseva+One|Josefin+Sans:bold,light,thin,bold,bi,600,">
   </head>
   
   <body>
@@ -30,9 +30,7 @@
         <li>
           <a href="about.html">About</a>
         </li>
-        <li>
-          <a href="portfolio.html">Portfolio</a>
-        </li>
+        <li class="pageopened">Portfolio</li>
       </ul>
     </nav>
 
@@ -42,35 +40,59 @@
     </header>
 
     <main>
-      <img src="assets/binary-heart-home-page.png" alt="Screenshot of the binary heart website home page." class="portfoliopic">
-      <h3>BinaryHeart Website</h3>
-      <p><em>2022 - present</em></p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non enim praesent elementum facilisis leo. Consequat semper viverra nam libero justo laoreet sit. Convallis posuere morbi leo urna molestie at. Laoreet non curabitur gravida arcu ac tortor dignissim. 
-      </p>
-      <p><a href="https://www.binaryheart.org/">Visit Project</a></p>
-      <p><a href="https://github.com/IsaacNoel/binaryheart">Source</a></p>
+      <div class="clearfix">
+        <img src="assets/binary-heart-home-page.png" alt="Screenshot of the binary heart website home page." class="portfoliopic">
+        <h3>BinaryHeart Website</h3>
+        <p class="portfoliopdates">March 2022 - present</p>
+        <p class="portfoliop">
+          In March of 2022, I joined a team of five in creating a new website for BinaryHeart to provide information about how to donate, how to request donations, and our mission. The website is coded in JavaScript and CSS. Next school year, I will be the project manager for the team.
+        </p>
+        
+        <!-- <p class="portfoliop"><a href="https://www.binaryheart.org/">Visit Project</a></p>
+        <p class="portfoliop"><a href="https://github.com/IsaacNoel/binaryheart">Visit Code</a></p> -->
 
-      <iframe src="https://drive.google.com/file/d/1kDFBtl0ywCkQLEQXI3lcVO-oyspa5l7p/preview" width=50% height="480"></iframe>
-      <h3>Plannet App</h3>
-      <p><em>2021</em></p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non enim praesent elementum facilisis leo. Consequat semper viverra nam libero justo laoreet sit. Convallis posuere morbi leo urna molestie at. Laoreet non curabitur gravida arcu ac tortor dignissim. 
-      </p>
-      <p><a href="https://github.com/zhangvanessa/Plannet-main">Source</a></p>
+        <div class="buttondiv">
+          <a href="https://www.binaryheart.org/" class="button" target="_blank">Visit Project</a>
+          <a href="https://github.com/IsaacNoel/binaryheart" class="button" target="_blank">Visit Code</a>
+        </div>
+      </div>
 
-      <img src="assets/khemistry-home-page.png" alt="Screenshot of the khemistry home page, which displays all of the units covered." class="portfoliopic">
-      <h3>Khemistry</h3>
-      <p><em>2021 - present</em></p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non enim praesent elementum facilisis leo. Consequat semper viverra nam libero justo laoreet sit. Convallis posuere morbi leo urna molestie at. Laoreet non curabitur gravida arcu ac tortor dignissim. 
-      </p>
-      <p><a href="https://khemistry.notion.site/">Visit Project</a></p>
+      <hr> 
+
+      <div class="clearfix">
+        <iframe src="https://drive.google.com/file/d/1kDFBtl0ywCkQLEQXI3lcVO-oyspa5l7p/preview" width=30% height="300"></iframe>
+        <h3>Plannet App</h3>
+        <p class="portfoliopdates">July 2021 - August 2021</p>
+        <p class="portfoliop">
+          For my Kode With Klossy mobile development final project, I worked in a group of three to create an app that focused on student productivity. This app was created from scratch in only a couple of days.
+        </p>
+        <!-- <p class="portfoliop"><a href="https://github.com/zhangvanessa/Plannet-main">Visit Code</a></p> -->
+        <div class="buttondiv">
+          <a href="https://github.com/zhangvanessa/Plannet-main" class="button" target="_blank">Visit Code</a>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="clearfix">
+        <img src="assets/khemistry-home-page.png" alt="Screenshot of the khemistry home page, which displays all of the units covered." class="portfoliopic">
+        <h3>Khemistry</h3>
+        <p class="portfoliopdates">September 2021 - present</p>
+        <p class="portfoliop">
+          Throughout my general chemistry course, I compiled my notes into a notion page. Each unit page includes example problems, explanations, diagrams (many of which I created), and more. 
+        </p>
+        <!-- <p class="portfoliop"><a href="https://khemistry.notion.site/">Visit Project</a></p> -->
+        <div class="buttondiv">
+          <a href="https://khemistry.notion.site/" class="button" target="_blank">Visit Project</a>
+        </div>
+      </div>
     </main>
 
     <footer>
       <a href="https://www.instagram.com/meganklu/" class="fa fa-instagram" target="_blank"></a>
       <a href="https://www.linkedin.com/in/meganklu/" class="fa fa-linkedin" target="_blank"></a>
       <a href="https://twitter.com/meganklu" class="fa fa-twitter" target="_blank"></a>
+      <br>
+      <p class="footertext">Created by Megan Lu</p>
     </footer>
 </html>

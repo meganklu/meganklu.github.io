@@ -2,7 +2,7 @@
 <html>
   <head>
     
-    <title>Megan Lu</title>
+    <title>Home</title>
     <meta charset="utf-8" />
 	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	  <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -18,15 +18,13 @@
 
     <!-- Import fonts -->
     <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Yeseva+One|Josefin+Sans:bold,light,thin,bold">
+          href="https://fonts.googleapis.com/css?family=Yeseva+One|Josefin+Sans:bold,light,thin,bold,bi,600">
   </head>
   
   <body>
     <nav>
       <ul>
-        <li>
-          <a href="index.html">Home</a>
-        </li>
+        <li class="pageopened">Home</li>
         <li>
           <a href="about.html">About</a>
         </li>
@@ -38,29 +36,30 @@
 
     <header>
       <!-- <img> -->
-      <h1>Hello!</h1>
+      <h1>Megan Lu</h1>
     </header>
 
     <main>
-      <div class="container">
-        <div class="div1">
-          <img src="assets/megan-full-body.jpg" alt="A picture of Megan smiling and looking at the audience. Her black hair is in a ponytail and she is wearing a blue plaid dress. She is stading in front of a palm tree." class="profilepic">
-        </div>
-        <div class="div2">
-          <p class="homep">
-              Welcome to my website! My name is Megan. I’m a rising high school junior passionate about computer science and chemistry. I also love word puzzles, walks, and gummy worms. 
-          </p>
-          <p class="homep">
-            I'd love to connect with you! Send me a message through one of my socials. 
-          </p>
-          <div class="homep">
+      <div class="clearfix">
+        <img src="assets/megan-full-body.jpg" alt="A picture of Megan smiling and looking at the audience. Her black hair is in a ponytail, and she is wearing a blue plaid dress. She is stading in front of a palm tree." id="profilepic">
+        <h4 id="introtext">Hello!</h4>
+        <p class="homep"">
+              Welcome to my website! My name is Megan. I’m a rising high school junior passionate about <span class="highlight">computer science</span> and <span class="highlight">chemistry</span>. I also love word puzzles, walks, and peppermint gum. This is the first complete website that I have made independently. 
+        </p>
+        <p class="homep">
+            I'd love to connect with you! Send a message to one of my socials. 
+        </p>
+        <div class="homep">
             <a href="https://www.instagram.com/meganklu/" class="fa fa-instagram" target="_blank"></a>
             <a href="https://www.linkedin.com/in/meganklu/" class="fa fa-linkedin" target="_blank"></a>
             <a href="https://twitter.com/meganklu" class="fa fa-twitter" target="_blank"></a>
-          </div> 
-        </div>
+        </div> 
       </div>
     </main>
+
+    <footer class="footertext">
+      Created by Megan Lu
+    </footer>
     
   </body>
 </html>

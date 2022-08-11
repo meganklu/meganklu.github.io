@@ -1,10 +1,29 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* STYLE SECTIONING TAGS */
 body {
   background-color: white;
 }
 
-/* STYLE SECTIONING TAGS */
-.portfoliop {
-  background-color: white; 
+main {
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+/* STYLE TEXT */
+.portfoliop { 
+  color: black;
+  font-family: "Josefin Sans", "Segoe UI", "Helvetica", "Hiragino Mincho Pro", sans-serif;
+  font-weight: 300;
+  line-height: 1;
+  font-size: 24px;
+  margin: 12px;
+}
+
+.portfoliopdates { 
   color: black;
   font-family: "Josefin Sans", "Segoe UI", "Helvetica", "Hiragino Mincho Pro", sans-serif;
   font-weight: 300;
@@ -13,72 +32,209 @@ body {
 }
 
 .aboutp {
-  background-color: white; 
+  color: black;
+  font-family: "Josefin Sans", "Segoe UI", "Helvetica", "Hiragino Mincho Pro", sans-serif;
+  font-weight: 300;
+  line-height: 1;
+  font-size: 32px;
+  text-align: center;
+  margin: 12px;
+}
+
+/* . { 
   color: black;
   font-family: "Josefin Sans", "Segoe UI", "Helvetica", "Hiragino Mincho Pro", sans-serif;
   font-weight: 300;
   line-height: 1;
   font-size: 24px;
-}
+} I don't remember what this was but I kind of messed it up*/
 
 .homep {
   color: black;
   font-family: "Josefin Sans", "Segoe UI", "Helvetica", "Hiragino Mincho Pro", sans-serif;
   font-weight: 300;
   line-height: 1;
-  font-size: 24px;
+  font-size: 30px;
   text-align: center;
+  margin-top: 15px;
+  margin-bottom: 20px;
 }
 
-/* STYLE TEXT */
+#introtext {
+  color: black;
+  font-family: "Josefin Sans", "Segoe UI", "Helvetica", "Hiragino Mincho Pro", sans-serif;
+  font-weight: 600;
+  font-size: 45px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 16px;
+  padding-top: 30px;
+}
+
+.footertext {
+  color: #4B96D2;
+  font-family: "Josefin Sans", "Segoe UI", "Helvetica", "Hiragino Mincho Pro", sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  margin-top: 10px;
+}
 
 header {
   color: #4B96D2;
   text-align: center;
   font-size: 36px;
-  font-family: "Yeseva One", "Times", serif;
+  font-family: "Josefin Sans", "Segoe UI", "Helvetica", "Hiragino Mincho Pro", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 12px;
+  margin-top: 16px;
+}
+
+h3 {
+  color: #4B96D2;
+  font-size: 26px;
+  font-family: "Josefin Sans", "Segoe UI", "Helvetica", "Hiragino Mincho Pro", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 6px;
+  padding-top: 15px;
 }
 
 /* STYLE IMAGES */
 
-.profilepic {
+#profilepic {
   border-style: solid;
   border-width: 5px;
   border-color: #4B96D2;
   border-radius: 50%;
-  width: 100%;
+  width: 30%;
+  float: right;
 }
 
 .portfoliopic {
   border-style: solid;
   border-width: 5px;
   border-color: #4B96D2;
-  max-width: 50%
+  width: 30%;
+  float: left;
+  margin: 15px;
+  border-radius: 0%;
+}
+
+.aboutpic {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #4B96D2;
+  border-radius: 50%;
+  max-width: 30%;
+  float: left;
 }
 
 iframe {
   border-style: solid;
   border-width: 5px;
   border-color: #4B96D2;
+  float: left;
+  margin: 15px;
+}
+
+.highlight {
+  background-color: #4B96D2;
+  color: white;
 }
 
 /* STYLE TEXT BESIDE IMAGE */
 /* https://stackoverflow.com/questions/48669978/css-display-text-beside-image-responsive */
+
+/* HOME PAGE 
 .container {
   width: 100vw;
 }
 
 .div1 {
-  width: 40%;
+  width: 30%;
   float: left;
 }
 
 .div2 {
-  width: 60%;
+  width: 70%;
   float: left;
+} */
+
+/* https://www.w3schools.com/css/css_float_clear.asp */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 /* STYLE NAV BAR */
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  padding: 18px;
+  text-align: right;
+}
+
+li {
+  display: inline;
+  margin: 12px;
+  padding-top: 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Josefin Sans", "Segoe UI", "Helvetica", "Hiragino Mincho Pro", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  padding: 12px;
+  background-color: #4B96D2;
+}
+
+li a:hover {
+  opacity: 0.7;
+}
+
+.pageopened {
+  text-decoration: none;
+  color: white;
+  font-family: "Josefin Sans", "Segoe UI", "Helvetica", "Hiragino Mincho Pro", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  padding: 12px;
+  background-color: #4B96D2;
+}
+
+/* STYLE BUTTONS */
+.button {
+  color: white;
+  background-color: #4B96D2;
+  border: none;
+  font-family: "Josefin Sans", "Segoe UI", "Helvetica", "Hiragino Mincho Pro", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.button:hover {
+  opacity: 0.7;
+}
+
+.buttondiv {
+  float: left;
+  margin: 6px;
+  margin-left: 0px;
+}
+
+/* ABOUT TIMELINE */
+.abouttimeline {
+  font-family: "Josefin Sans", "Segoe UI", "Helvetica", "Hiragino Mincho Pro", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-align: left;
+}
 
 /* STYLE FOOTER */
 footer {
@@ -86,7 +242,7 @@ footer {
 }
 
 .fa {
-  padding: 15px;
+  padding: 20px;
   font-size: 30px;
   width: 25;
   text-align: center;
@@ -94,6 +250,7 @@ footer {
   border-radius: 50%;
   color: white;
   background-color: #4B96D2;
+  margin: 12px;
 }
 
 .fa:hover {
